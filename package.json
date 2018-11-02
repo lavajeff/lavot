@@ -1,0 +1,18 @@
+{
+  "name": "lavot",
+  "version": "1.0.0",
+  "description": "A Lava X discord bot",
+  "main": "bot.js",
+  "author": "Jeffrey Chai",
+  "scripts": {
+    "start": "npx nodemon"
+  },
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "immutable": "3.8.2",
+    "winston": "3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.5"
+  }
+}
