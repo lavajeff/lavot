@@ -5,8 +5,6 @@ const fs = require("fs");
 const auth = require("./auth.json");
 const data = require("./data.json");
 
-console.log("aa");
-
 let USER_DATA = Map(data);
 const HELP_MESSAGE =
   "Command list\n`x!user` - Setup and update basic user info\n`x!info` - Show your own info\n`x!list` - List all members' names\n`x!list <name>` - List specific member's info";
