@@ -19,7 +19,6 @@ logger.add(new logger.transports.Console(), {
 logger.level = "debug";
 
 // Initialize Lava Bot
-// add comment
 const bot = new Discord.Client({
   token: auth.token,
   autorun: true
