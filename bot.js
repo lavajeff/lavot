@@ -14,6 +14,7 @@ const START_MESSAGE =
   "Enter user command with required arguments:\n`name` - your name/alias (no space)\n`email` - your Lava email or primary email\n`phone` - your current phone number\n\ne.g. `x!user lavabot lavot@lavax.co 012-3456789`";
 
 // Configure logger settings
+// add comment
 logger.remove(logger.transports.Console);
 logger.add(new logger.transports.Console(), {
   colorize: true
